@@ -17,14 +17,13 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("29897567", ""))
+API_HASH = getenv("b74f25d902e4dd9a0ba158f5508b562b")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("8326008969:AAE1r9E0ens31E-b74bg9H0MYGXb5SAwkVY")
 
-# Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+# Database to save your mongodb+srv://atanmetin15_db_user:<GhOvogwdLDdtiNQv>@cluster0.gpvcipe.mongodb.net/", None)
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -37,18 +36,18 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("1008266228160", ""))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("star müzik")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("8266228160", "").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HRKU-AAr_IlLDcfR1XjI-B0VDen-kzHlK-QMetBHrGYkEcng__wCZfu_T0ocx")
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -61,7 +60,7 @@ UPSTREAM_REPO = getenv(
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 # GIT TOKEN ( if your edited repo is private)
-GIT_TOKEN = getenv("GIT_TOKEN", None)
+GIT_TOKEN = getenv("https://github.com/huseyin877/M-zik-star.git", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
@@ -135,7 +134,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("BAHIM18Ak1AgSIDuJC_sVQ8iWD7zzz2vHot99R-OyBscKXBMlUMHMQoWivsIVdMYNm8P25Xn2gCNyjY-3Sq019eo1OtcHzCBb3UUll7asOZyK9s61hUWg5I446EQr95pmNi1uMbzEE9njN4b94kdszW_Irvx9KPSw6LTSihtigaZMm7UwBcodLAujs2HUeRvmYZUPS5D9fDWcuNTHQDwRCQhwPWmadfeViK5jD_dOoS_jeyCqkZRHb7pwAaUCyLFv9s3cfOV38E9-2pAm0tT3HuR5aMRrGAwL96XPy6wbFOU0R_vuIf_Qfghu-Cw71xg7qTYlTjhSwpP7R0XFxDMoO-GM_5wIwAAAAHstKHAAA", None)
+STRING2 = getenv(", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
