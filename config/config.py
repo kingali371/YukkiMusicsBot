@@ -23,7 +23,7 @@ API_HASH = getenv("b74f25d902e4dd9a0ba158f5508b562b")
 ## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("8431380938:AAFA8ah5_LLRp8XZrFSjZdHIWxhng8WqMQ0")
 
-# Database to save your mongodb+srv://atanmetin15_db_user:<GhOvogwdLDdtiNQv>@cluster0.gpvcipe.mongodb.net/", None)
+# Database to save your mongodb+srv://atanmetin15_db_user:<CTSiXo03Lh7dj2it>@cluster0.gpvcipe.mongodb.net/", None)
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
