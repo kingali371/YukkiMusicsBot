@@ -21,7 +21,7 @@ API_ID = int(getenv("29897567", ""))
 API_HASH = getenv("b74f25d902e4dd9a0ba158f5508b562b")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("8326008969:AAE1r9E0ens31E-b74bg9H0MYGXb5SAwkVY")
+BOT_TOKEN = getenv("8431380938:AAFA8ah5_LLRp8XZrFSjZdHIWxhng8WqMQ0")
 
 # Database to save your mongodb+srv://atanmetin15_db_user:<GhOvogwdLDdtiNQv>@cluster0.gpvcipe.mongodb.net/", None)
 
