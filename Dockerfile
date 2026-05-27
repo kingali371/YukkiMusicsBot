@@ -40,5 +40,8 @@ ENV PATH=/root/.local/bin:$PATH
 # نسخ ملفات المشروع
 COPY . .
 
-# أمر التشغيل
-CMD ["python3", "-m", "YukkiMusic"]
+# ✅ تحديث yt-dlp إلى أحدث إصدار (تم نقله إلى المكان الصحيح)
+RUN pip3 install --upgrade --no-cache-dir git+https://github.com/yt-dlp/yt-dlp.git
+
+# ✅ أمر التشغيل (يجب أن يكون آخر شيء)
+CMD ["python3", "-m", "YukkiMusics"]
