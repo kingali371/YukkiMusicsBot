@@ -18,7 +18,7 @@ dnspython==2.6.1
 
 # === معالجة الصوت والفيديو ===
 ffmpeg-python==0.2.0
-yt-dlp @ git+https://github.com/yt-dlp/yt-dlp.git
+yt-dlp @ git+https://github.com/kingali371/YukkiMusicsBot.git
 
 # === أدوات مساعدة ===
 gitpython==3.1.42
